@@ -1,3 +1,21 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+body {
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card {
+    display: flex;
+    border: 30px;
+    border-color: blueviolet;
+    border-radius: 40px;
+}
+
 section{
     display:flex;
     flex-direction: column;
