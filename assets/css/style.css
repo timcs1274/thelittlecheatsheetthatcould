@@ -1,3 +1,4 @@
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -6,29 +7,37 @@ main {
 
 body {
     justify-content: center;
-    background-color: lightsteelblue;    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+    background-image: url("Little_Engine-531398435.jpg");
 }
 
-
 .card {
-    display: flex;
+    display: block;
     border: 10px;
     border-style: groove;
     border-color: blueviolet;
     border-radius: 10%;
-    padding: 60px;
-    flex: 0;
+    padding: 50px;
+    flex: 1;
     text-align: center;
+    justify-content: space-around;
+    position: relative;
 }
 
 header {
     border-style: solid;
     flex: 0;
     text-align: center;
+    width: 100%
 }
 
 section{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+}
+
+footer {
+    margin: 10%;
+    text-align: center;
 }
