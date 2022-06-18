@@ -1,43 +1,67 @@
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
-    justify-content: center;
-    background-color: aliceblue;
-    background-image: url("Little_Engine-531398435.jpg");
+    text-align: center;
+    background-image: url("http://img1.wikia.nocookie.net/__cb20140119024559/littleengine/images/d/da/Little_Engine.png");
+    animation-name: initial;
+    animation-duration: 5s;
 }
 
 .card {
-    display: block;
-    border: 10px;
-    border-style: groove;
-    border-color: blueviolet;
-    border-radius: 10%;
-    padding: 50px;
-    flex: 1;
-    text-align: center;
-    justify-content: space-around;
-    position: relative;
+    display: inline-flex;
+    flex: 0;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+
 }
+   
 
 header {
+    text-align: top;
+    justify-content: center;
+    border-style: solid;
+    border-color: aqua;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
     border-style: solid;
     flex: 0;
     text-align: center;
-    width: 100%
+    width: 100%;
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 0s;
+  }
+
+  h2:hover {
+    font-size: 36px;
+  }
+
+figcaption {
+    flex: 1;
+    width: 75%;
+    margin: auto;
+    transition: width 10s;
 }
 
 section{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    border-style: dashed;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    display: block;
+    background-color: blanchedalmond;
 }
 
 footer {
     margin: 10%;
     text-align: center;
 }
+
