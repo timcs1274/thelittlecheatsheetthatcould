@@ -24,7 +24,7 @@ header {
     text-align: top;
     justify-content: center;
     border-style: solid;
-    border-color: aqua;
+    border-color: turquoise;
     padding: 1%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -57,11 +57,12 @@ section{
     margin: 10px;
     text-align: center;
     display: block;
-    background-color: blanchedalmond;
+    background-color: darkorange;
 }
 
 footer {
     margin: 10%;
+    background-color: white;
     text-align: center;
 }
 
